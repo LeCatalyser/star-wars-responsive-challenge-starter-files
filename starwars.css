@@ -3,6 +3,7 @@
 	background: #dab334;
 	border: 1px solid #dddddd;
 }
+
 main {
   padding-top: 100px;
 }
@@ -16,4 +17,13 @@ main .row {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+.ray_square, .finn_square, .kylo_square, .poe, .chewbacca, .yoda
+{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 17px;
+	display: inline-block;
+
 }
