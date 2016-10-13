@@ -1,29 +1,45 @@
-.row
+header 
 {
-	background: #dab334;
-	border: 1px solid #dddddd;
+  background-color: #eebb44;
+  margin-bottom: 40px;
 }
 
-main {
-  padding-top: 100px;
+header h1 
+{
+  line-height: 1;
+  margin-bottom: 0;
 }
 
-main .row {
+header p 
+{
+  margin-top: 0.5em;
+}
+
+.card 
+{
+  border: 1px solid #E5E5E5;
   margin-bottom: 20px;
 }
 
-.row {
-  max-width: 1000px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
+
 .card-image
 {
-	width: 40px;
-	height: 40px;
-	position: relative;
-	top: 17px;
-	display: inline-block;
-
+  width: 100%;
 }
+
+.card-content 
+{
+  padding: 20px;
+}
+
+.card-content h3 
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-content p 
+{
+  margin: 0.5em 0;
+}
+
