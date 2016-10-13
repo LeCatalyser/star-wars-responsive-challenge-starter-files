@@ -11,3 +11,9 @@ main .row {
   margin-bottom: 20px;
 }
 
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
