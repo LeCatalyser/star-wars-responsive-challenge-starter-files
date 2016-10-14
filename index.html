@@ -1,46 +1,47 @@
 
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Star Wars Responsive Challenge</title>
 
-   <!-- Responsive viewport tag, tells small screens that it's responsive -->
-   
+  <!-- Responsive viewport tag, tells small screens that it's responsive -->
+
 
   <!-- Google Font -->
   <!-- Normalize.css, a cross-browser reset file -->
-  
+
   <!-- Stylesheets -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link rel="stylesheet" href="float_starwars.css">
   <link rel="stylesheet" href="starwars.css"/>
- </head> 
+</head>
 
 <body>
-<header>
+  <header>
+    <div class="row">
+      <div class="col-12">
+        <h1>Star Wars Characters</h1>
+        <p>Incomplete List</p>
+      </div>
+    </div>
+  </header>
+
   <div class="row">
-    <div class="col-12">
-    <h1>Star Wars Characters</h1>
-    <p>Incomplete List</p>
-  </div>
-</div>
-</header>
 
-<div class="row">
-
-  <div class="col-4">
-        <!-- <div class="card">  so I write a class for the image and each div?-->
+    <div class="col-4">
+      <div class="card"> <!-- so I write a class for the image and each div?-->
         <img class="card-image" src="images/rey_square.png"/>
         <div class="card-content">
-        <h3>Ray</h3>
-        <p>Protagonist, from Tatooine</p>
+          <h3>Ray</h3>
+          <p>Protagonist, from Tatooine</p>
+        </div>
       </div>
     </div>
 
     <div class="col-4">
-      <div class="card"> 
-        <img class="card.image" src="/images/kylo_square.png">
+      <div class="card">
+        <img class="card-image" src="/images/kylo_square.png">
         <div class="card-content">
           <h3>Kylo</h3>
           <p>Main villain, or is he?</p>
@@ -48,16 +49,28 @@
       </div>
     </div>
 
-    <div class="row">
 
     <div class="col-4">
       <div class="card">
-      <div class="card-image" src="images/poe_square.png"/>
-      <div class="card-content">
-      <h3>Poe</h3>
-        <p>Neutral Pilot</p>
+        <img class="card-image" src="/images/finn_square.png">
+        <div class="card-content">
+          <h3>Kylo</h3>
+          <p>Main villain, or is he?</p>
+        </div>
       </div>
     </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <div class="card">
+        <img class="card-image" src="images/poe_square.png">
+        <div class="card-content">
+          <h3>Poe</h3>
+          <p>Neutral Pilot</p>
+        </div>
+      </div>
     </div>
 
     <div class="col-4">
@@ -79,6 +92,7 @@
         </div>
       </div>
     </div>
-</main>
+  </div>
+
 </body>
 </html>
